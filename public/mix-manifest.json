@@ -1,0 +1,17 @@
+{
+    "/js/index.js": "/js/index.js",
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/language/de.json": "/language/de.json",
+    "/language/en.json": "/language/en.json",
+    "/language/es.json": "/language/es.json",
+    "/language/fr.json": "/language/fr.json",
+    "/language/kz.json": "/language/kz.json",
+    "/language/pl.json": "/language/pl.json",
+    "/language/ru.json": "/language/ru.json",
+    "/language/uz.json": "/language/uz.json",
+    "/language/zh.json": "/language/zh.json",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/bootstrap.min.css.map": "/css/bootstrap.min.css.map",
+    "/css/suneditor.min.css": "/css/suneditor.min.css"
+}

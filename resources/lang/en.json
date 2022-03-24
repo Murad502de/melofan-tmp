@@ -1,0 +1,19 @@
+{
+    "textMessageResetPassword1": "Восстановление пароля",
+    "textMessageResetPassword2": "Восстановление пароля на сайте",
+    "textMessageResetPassword3": "ФИО:",
+    "textMessageResetPassword4": "Для создания нового пароля необходимо",
+    "textMessageResetPassword5": "перейти по ссылке",
+    "textMessageResetPassword6": "",
+    "textMessageTicket1": "Сообщение",
+    "textMessageTicket2": "Это сообщение создано автоматически, на него не нужно отвечать.",
+    "textMessageTicket3": "Перейдите в ",
+    "textMessageTicket4": "кабинет",
+    "textMessageTicket5": " для просмотра и ответа.",
+    "textMessageTicket6": "С уважением, техническия поддержка \"HitBeat\"",
+    "textMessageVerify1": "Пожалуйста, подтвердите свой адрес электронной почты.",
+    "textMessageVerify2": "Вы зарегистрировались на сайте",
+    "textMessageVerify3": "Для завершения регистрации перейдите по ссылке ниже:",
+    "textMessageVerify4": "Активировать учетную запись",
+    "textMessageVerify5": "После активации Вашей учётной записи Вам будет доступен весь необходимый функционал."
+}

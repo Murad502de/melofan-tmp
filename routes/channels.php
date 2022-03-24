@@ -1,0 +1,50 @@
+<?php
+
+use Illuminate\Support\Facades\Broadcast;
+
+/*
+|--------------------------------------------------------------------------
+| Broadcast Channels
+|--------------------------------------------------------------------------
+|
+| Here you may register all of the event broadcasting channels that your
+| application supports. The given channel authorization callbacks are
+| used to check if an authenticated user can listen to the channel.
+|
+*/
+
+//-----------------------------------------------------------------------------
+
+Broadcast::channel(
+	"user.{userId}",
+	function ($user, $userId) {
+		return $user->id == $userId;
+	},
+	["middleware" => ["auth.jwt", "role:user,broker"]],
+);
+
+Broadcast::channel(
+	"allUsers",
+	function () {
+		return true;
+	},
+	["middleware" => ["auth.jwt", "role:user,broker", "verify.country"]],
+);
+
+Broadcast::channel(
+	"ticketOperator.{userId}",
+	function ($user, $userId) {
+		return $user->id == $userId;
+	},
+	["middleware" => ["auth.jwt", "role:admin,ticket_operator"]],
+);
+
+Broadcast::channel(
+	"allTicketOperators",
+	function () {
+		return true;
+	},
+	["middleware" => ["auth.jwt", "role:admin,ticket_operator"]],
+);
+
+//-----------------------------------------------------------------------------

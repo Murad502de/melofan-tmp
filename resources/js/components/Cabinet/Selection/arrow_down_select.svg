@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.52 35.27">
+    <defs>
+        <style>.cls-1{opacity:0.9;fill:url(#Безымянный_градиент_207);}</style>
+        <radialGradient id="Безымянный_градиент_207" cx="32.26" cy="17.64" r="26" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#a1a4b5"/>
+            <stop offset="1" stop-color="#a1a4b5"/>
+        </radialGradient>
+    </defs>
+    <title>arrow_down</title>
+    <g id="Слой_2" data-name="Слой 2">
+        <g id="Главная">
+            <g id="Слой_5" data-name="Слой 5">
+                <path class="cls-1"
+                      d="M63.64,5.14,34.4,34.38h0a3,3,0,0,1-4.26,0h0L.88,5.14A3,3,0,0,1,.88.88h0a3,3,0,0,1,4.26,0L32.26,28,59.37.88a3,3,0,0,1,4.26,0h0A3,3,0,0,1,63.64,5.14Z"/>
+            </g>
+        </g>
+    </g>
+</svg>
